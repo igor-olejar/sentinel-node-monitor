@@ -13,7 +13,7 @@ function saveResult(result) {
     fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
 }
 
-cron.schedule('0 * * * *', async () => {
+cron.schedule('* * * * *', async () => {
     for (const site of SITES) {
         const siteStatus = await checkSite(site);
         saveResult(siteStatus);

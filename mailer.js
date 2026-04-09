@@ -34,3 +34,5 @@ async function sendEmailReport(reportData) {
 
     return transporter.sendMail(mailOptions);
 };
+
+module.exports = { sendEmailReport };

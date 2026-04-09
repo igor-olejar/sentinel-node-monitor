@@ -21,3 +21,5 @@ async function checkSite(url) {
         };
     }
 };
+
+module.exports = { checkSite };

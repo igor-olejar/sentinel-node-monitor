@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "url": "https://www.google.com",
+    "status": 200,
+    "latency": "128ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:33:00.137Z"
+  },
+  {
+    "url": "https://www.facebook.com",
+    "status": 200,
+    "latency": "260ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:33:00.398Z"
+  },
+  {
+    "url": "https://www.twitter.com",
+    "status": 200,
+    "latency": "545ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:33:00.943Z"
+  },
+  {
+    "url": "https://www.google.com",
+    "status": 200,
+    "latency": "198ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:34:00.255Z"
+  },
+  {
+    "url": "https://www.facebook.com",
+    "status": 200,
+    "latency": "277ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:34:00.533Z"
+  },
+  {
+    "url": "https://www.twitter.com",
+    "status": 200,
+    "latency": "553ms",
+    "online": true,
+    "timeStamp": "2026-04-09T08:34:01.087Z"
+  }
+]
